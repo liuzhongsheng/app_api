@@ -1,0 +1,19 @@
+{
+    "name": "liuzhongsheng/super-pay",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liuzhongsheng",
+            "email": "996674366@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SuperPay\\": "./src",
+            "SuperPay\\TransferAccounts\\": ["./src/TransferAccounts","./src/TransferAccounts/iTemplate"],
+            "SuperPay\\Pay\\": ["./src/Pay","./src/Pay/iTemplate"]
+        }
+    },
+    "require": {}
+}

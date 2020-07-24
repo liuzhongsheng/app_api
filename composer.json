@@ -1,0 +1,7 @@
+{
+    "require": {
+        "liuzhongsheng/super-pay": "dev-master",
+        "phpoffice/phpword": "^0.16.0",
+        "catfan/medoo": "^1.6"
+    }
+}

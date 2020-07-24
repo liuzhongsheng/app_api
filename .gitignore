@@ -1,0 +1,6 @@
+public/Word
+runtime
+public/upload
+workerman.log
+public/qrcode/
+application/library/phpqrcode/cache/
