@@ -1,7 +1,7 @@
 <?php
 
-class IndexController extends BaseController {
-    protected $actions_path = ACTIONS_MODULE_PATH.'/actions/Index/'.API_VERSION.'/';
+class InitController extends BaseController {
+    protected $actions_path = ACTIONS_MODULE_PATH.'/actions/Init/'.API_VERSION.'/';
     public $actions = [];
     public function init()
     {
