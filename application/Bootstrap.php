@@ -18,7 +18,7 @@ class Bootstrap extends Yaf_Bootstrap_Abstract{
         checkCC(); 
     }
     public function _initDefaultName(Yaf_Dispatcher $dispatcher) {
-        $dispatcher->setDefaultModule("Api")->setDefaultController("Index")->setDefaultAction("index");
+        $dispatcher->setDefaultModule("Index")->setDefaultController("Index")->setDefaultAction("index");
     }
     
     /**
